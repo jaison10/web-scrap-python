@@ -1,5 +1,6 @@
 from selenium import webdriver
-from BeautifulSoup import BeautifulSoup
+#from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import pandas as pd
 
 driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
